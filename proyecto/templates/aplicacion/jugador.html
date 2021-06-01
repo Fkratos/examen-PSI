@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        {% if error %}
+            {{ error }}
+        {% endif %}
+        Movimientos del jugador {{ nombreJ }}
+        <table>
+            {% for movimiento in movimientos %}
+                <tr>
+                    <th>{{ movimiento.partida.id }}</th>
+                    <td>{{ movimiento.partida.fecha }}
+                    <td>{{ movimiento.descripcion }}
+                    <td>{{ movimiento.orden }}
+                </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
