@@ -24,7 +24,7 @@ SECRET_KEY = 't(dd(@0ygwoqvpye-=nb14jdp19rf381y-6lrjnn3bi=d3u+%!'
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1',
-                 'https://secret-garden-35117.herokuapp.com']
+                 'https://nameless-headland-33624.herokuapp.com/']
 
 # Application definition
 
